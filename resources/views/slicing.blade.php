@@ -1,0 +1,13 @@
+@extends('templates')
+  @section('templates')
+    @include('components.navbar')
+    @include('components.hero')
+    @include('components.customer')
+    @include('components.work')
+    @include('components.data-analysis')
+    @include('components.analyze')
+    @include('components.pricing')
+    @include('components.testimonial')
+    @include('components.banner')
+    @include('components.footer')
+  @endsection
